@@ -1,6 +1,15 @@
-# TodoListApp
+# Angular Todo List Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.18.
+This is a simple Todo List application built with Angular. It allows users to add tasks, mark tasks as completed, and remove tasks.
+
+## Features
+
+- Add tasks: Users can enter new tasks and add them to the list.
+- Mark tasks as completed: Users can mark tasks as completed by checking the checkbox next to each task.
+- Remove tasks: Users can remove tasks from the list by clicking the delete button next to each task.
+
+## Installation
+npm i angular-todo-list-app
 
 ## Development server
 
