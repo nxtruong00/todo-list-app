@@ -1,0 +1,7 @@
+<mat-list-item>
+  <div mat-line>{{ todo.text }}</div>
+  <button mat-icon-button (click)="remove.emit(todo)">
+    <mat-icon>delete</mat-icon>
+  </button>
+  <mat-checkbox [(ngModel)]="todo.completed" (change)="toggle.emit(todo)"></mat-checkbox>
+</mat-list-item>

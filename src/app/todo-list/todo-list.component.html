@@ -1,0 +1,10 @@
+<mat-list>
+  <app-todo-item *ngFor="let todo of todos" [todo]="todo" (remove)="removeItem(todo)" (toggle)="toggleItem(todo)"></app-todo-item>
+</mat-list>
+<mat-form-field appearance="fill">
+  <mat-label>Add Task</mat-label>
+  <input matInput [(ngModel)]="newTodo" (keyup.enter)="addItem()">
+  <button mat-button matSuffix mat-icon-button aria-label="Add" (click)="addItem()">
+    <mat-icon>add</mat-icon>
+  </button>
+</mat-form-field>
